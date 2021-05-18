@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.125em;
+  font-size: 1.125em;
+  color: rgb(29, 31, 29);
 }
 
 #cabecalho {

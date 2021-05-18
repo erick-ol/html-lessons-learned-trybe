@@ -7,7 +7,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   line-height: 1.125em;
   font-size: 1.125em;
   color: rgb(29, 31, 29);
@@ -18,8 +18,8 @@ body {
   top: 0;
 }
 
-table, th, td {
-  border: 1px solid #000;
+table , th , td {
+  border: 1px solid black;
 }
 
 section {
@@ -30,7 +30,7 @@ section {
   margin-top: 150px;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   min-width: 40%;
 }

@@ -47,7 +47,7 @@ body {
   bottom: 8px;
 }
 
-#cabecalho ul li {
+.cabecalho-ul li {
   display: inline-block;
   margin-left: 20px;
 }
@@ -98,7 +98,7 @@ body {
   color: rgb(60, 82, 206);
 }
 
-.infos-principais aside p {
+.aside-p {
   width: 80%;
 }
 
@@ -120,7 +120,7 @@ body {
   list-style: none;
 }
 
-.listas ul li , .listas ol li {
+.listas li {
   line-height: 1.5em;
 }
 

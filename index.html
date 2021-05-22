@@ -8,18 +8,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header id="cabecalho">
-    <h1 id="titulo">Projeto Lessons Learned</h1>
-    <nav>
-      <ul>
-        <li><a href="#minha_foto">Foto</a></li>
-        <li><a href="#licoes_aprendidas">Aprendi</a></li>
-        <li><a href="#licoes_a_aprender">Vou aprender</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 id="titulo">&lt;/Erick Santos&gt;</h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/erickosantos/" target="_blank">Linkedin</a></li>
+          <li><a href="https://github.com/erick-ol" target="_blank">GitHub</a></li>
+          <li><a href="https://www.instagram.com/eerick_ol/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100013203876180" target="_blank">Facebook</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="infos-principais">
+  <section class="infos-principais container">
     <img src="https://us04images.zoom.us/p/nb75aHUHT8upa1J6RM7rEA/de427fe5-be4c-4020-96ac-077f1f6eef93-5127?type=large" alt="Foto do Erick" id="minha_foto">
 
     <aside>
@@ -28,46 +32,49 @@
     </aside>
   </section>
 
-  <section>
-    <div class="lado-esquerdo">
-      <p>Lições aprendidas:</p>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Empatia</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Inspect</li>
-        <li>Semantic HTML</li>
-      </ol>
-    </div>
+  <section class="listas">
+    <div class="container">
+      <div class="lado-esquerdo">
+        <p>Lições aprendidas:</p>
+        <ol id="licoes_aprendidas">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Empatia</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Slack</li>
+          <li>Zoom</li>
+          <li>Inspect</li>
+          <li>Semantic HTML</li>
+        </ol>
+      </div>
 
-    <div class="lado-direito">
-      <p>Lições que desejo aprender:</p>
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Unit Tests</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-      </ul>
+      <div class="lado-direito">
+        <p>Lições que desejo aprender:</p>
+        <ul id="licoes_a_aprender">
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>Forms</li>
+          <li>CSS Responsive</li>
+          <li>ES6</li>
+          <li>HOF</li>
+          <li>Unit Tests</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>SQL</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <article>
+  <article class="container">
     <h3>Sobre o que eu aprendi</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </article>
 
-  <section>
+  <section class="container tabela">
+    <p>Tudo o que eu gosto</p>
     <table>
       <caption>Tabelas de gostos do Erick</caption>
       <tr>
@@ -109,7 +116,7 @@
   </section>
 
   <footer id="rodape">
-    <p>Projeto feito por <a href="https://github.com/erick-ol" target="_blank">Erick Santos</a></p>
+    <p class="container">Projeto feito por <a href="https://github.com/erick-ol" target="_blank">Erick Santos</a></p>
   </footer>
 </body>
 </html>

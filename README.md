@@ -1,4 +1,4 @@
-## Trybewarts
+## Lessons Learned
 
 This was a project developed in the [Software Development Course at Trybe](https://www.betrybe.com/formacao-desenvolvimento-web) as a challenge while I was learning how to use simple HTML and CSS.
 
